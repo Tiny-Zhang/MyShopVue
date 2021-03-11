@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     GetUserInfo() {
-      var data = { Username: "032-03-25" };
+      var data = { Username: "49270967@qq.com" };
       axios
         .post(`${this.apiUrl}/api/User/GetUserInfo`, data)
         .then((res) => {
