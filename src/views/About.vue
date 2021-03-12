@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       UserData: [],
-      apiUrl: "http://localhost:5000",
+      apiUrl: "http://192.168.106.95:5000",
     };
   },
   created() {
