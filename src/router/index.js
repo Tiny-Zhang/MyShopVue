@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Formvuex from '../views/FormVuex.vue'   //区分大小写 名字一定不能错
 
 Vue.use(VueRouter)
 
@@ -9,6 +10,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/formvuex',
+    name: 'Formvuex',
+    component: Formvuex
   },
   {
     path: '/about',
